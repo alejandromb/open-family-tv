@@ -19,6 +19,15 @@ links and other standard player functionality. These findings directly affect ou
 proposed semantic labels and the ability to contain playback within selected
 content. The guide directs uncertain use cases to the API Compliance Audit process.
 
+There is a material qualification: the separate
+[additional derived-metrics policy](https://developers.google.com/youtube/terms/derived-metrics-policy)
+permits additive, clearly distinguished content tags for accepted analytics use
+cases under an amendment to the developer policies. It does not establish that
+this child-directed viewing product qualifies. Ask whether our actual use case or
+a disclosed parent-facing analysis component is eligible, without misrepresenting
+a viewing app as an analytics service. An amendment concerning derived data also
+does not establish an exception to player-link or advertisement requirements.
+
 The [developer policies](https://developers.google.com/youtube/terms/developer-policies)
 restrict derived API data, scraping, player modification, and interference with
 advertisements. Child-directed API clients have additional obligations, including
@@ -41,10 +50,18 @@ including application identification requirements.
    and functionality? Can that experience meet the actual family need?
 4. Which child-directed registration, data handling, and distribution requirements
    apply to the planned implementation?
+5. Does the additional derived-metrics permission route apply to any part of our
+   actual parent-preference use case, and what explicit review is required?
 
 Prepare an implementation-specific description for YouTube's documented compliance
 process and obtain appropriate legal review before public deployment. No request
 has been submitted and no approval has been obtained.
+
+The [draft review request](youtube-review-request-draft.md) separates proposed
+behaviour from implemented capabilities and records missing submission materials.
+The current audit form has quota/re-audit entry choices rather than a clearly
+labelled standalone pre-development clarification path. Confirm the appropriate
+route instead of falsely claiming a quota need or a re-audit request.
 
 ## Work that can proceed independently
 

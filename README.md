@@ -17,7 +17,9 @@ been validated on hardware. This project does not provide a child-safety guarant
 **YouTube integration is not cleared.** Its published compliance guide restricts
 API-based content-category inference and suitability claims, as well as blocking
 related-video links in its player. These restrictions directly affect the proposed
-classifier and viewing boundaries. See the [policy review](docs/youtube-policy-review.md)
+classifier and viewing boundaries. A separate permission route allows descriptive
+tags for accepted analytics uses; applicability to this app is unresolved.
+See the [policy review](docs/youtube-policy-review.md)
 before implementing or describing a YouTube-backed version as permitted.
 
 ## The proposed experience
@@ -41,6 +43,7 @@ it expands.
 | [Project plan](docs/plan.md) | Scope, milestones, evaluation, and open decisions |
 | [Architecture](docs/architecture.md) | Proposed components and playback decision gates |
 | [YouTube policy review](docs/youtube-policy-review.md) | Material restrictions and the permission questions to resolve |
+| [YouTube review request draft](docs/youtube-review-request-draft.md) | Proposed use case, precise clarification questions, and submission prerequisites |
 | [FilterTube reuse assessment](docs/filtertube-reuse.md) | What is publicly available and what needs new work |
 | [Contributing](CONTRIBUTING.md) | How to help and what evidence to include |
 
