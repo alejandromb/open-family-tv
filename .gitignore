@@ -1,0 +1,28 @@
+# Private household research and account/device evidence
+/evidence/
+/private/
+/local-research/
+*.har
+*.pcap
+*.pcapng
+
+# Credentials and signing material
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.jks
+*.keystore
+local.properties
+
+# Generated files and local tools
+.DS_Store
+.idea/
+.vscode/
+.gradle/
+**/build/
+node_modules/
+dist/
+coverage/
+*.log

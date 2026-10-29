@@ -1,0 +1,24 @@
+name: Feature or research proposal
+description: Propose a focused improvement or feasibility experiment.
+body:
+  - type: markdown
+    attributes:
+      value: Please use public content and synthetic examples. Do not include child activity, private screenshots, credentials, or device/network identifiers.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or research question
+      description: What would this improve or establish for a child or parent?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed approach
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and evaluation
+      description: Include relevant public sources, expected results, and remaining uncertainty.

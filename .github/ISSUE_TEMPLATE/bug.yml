@@ -1,0 +1,27 @@
+name: Bug or compatibility finding
+description: Report a reproducible problem with a prototype or documentation.
+body:
+  - type: markdown
+    attributes:
+      value: There is no installable app yet. Report issues against a specific prototype or document. Remove private account, child, device-identity, and network details.
+  - type: input
+    id: version
+    attributes:
+      label: Commit or document
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: For device findings, include the retail model and OS version only. State whether this was hardware or an emulator.
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps, expected result, and actual result
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sanitized evidence
