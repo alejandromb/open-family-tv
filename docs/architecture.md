@@ -2,6 +2,11 @@
 
 Status: design proposal; no application components have been implemented here.
 
+The YouTube-backed proposal has unresolved policy dependencies. The
+[policy review](youtube-policy-review.md) supersedes any inference that an official
+player plus custom classification is already an allowed integration. Keep generic
+policy, ranking, and TV experiments independent of a specific content provider.
+
 ## Component flow
 
 ```mermaid

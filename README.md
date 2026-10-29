@@ -14,6 +14,12 @@ of channel blocks. Children should have room to develop their own tastes.
 Playback integration, filtering accuracy, and the proposed TV experience have not
 been validated on hardware. This project does not provide a child-safety guarantee.
 
+**YouTube integration is not cleared.** Its published compliance guide restricts
+API-based content-category inference and suitability claims, as well as blocking
+related-video links in its player. These restrictions directly affect the proposed
+classifier and viewing boundaries. See the [policy review](docs/youtube-policy-review.md)
+before implementing or describing a YouTube-backed version as permitted.
+
 ## The proposed experience
 
 - A varied discovery feed that mixes familiar favourites with unfamiliar content.
@@ -34,6 +40,7 @@ it expands.
 | --- | --- |
 | [Project plan](docs/plan.md) | Scope, milestones, evaluation, and open decisions |
 | [Architecture](docs/architecture.md) | Proposed components and playback decision gates |
+| [YouTube policy review](docs/youtube-policy-review.md) | Material restrictions and the permission questions to resolve |
 | [FilterTube reuse assessment](docs/filtertube-reuse.md) | What is publicly available and what needs new work |
 | [Contributing](CONTRIBUTING.md) | How to help and what evidence to include |
 

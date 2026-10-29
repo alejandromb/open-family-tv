@@ -2,6 +2,12 @@
 
 Initial research checkpoint: October 28, 2026.
 
+Policy correction: the [YouTube policy review](youtube-policy-review.md) identifies
+explicit restrictions affecting the proposed classifier and player boundaries.
+The YouTube-backed architecture is conditional on resolving those restrictions;
+technical playback success is insufficient. Offline experiments can use synthetic
+fixtures or content with appropriate independent rights while this is assessed.
+
 ## Purpose
 
 Give children broad, enjoyable video discovery and give parents practical controls
@@ -57,6 +63,11 @@ measure whether those boundaries leave meaningful choice and manageable upkeep.
 ## Milestones
 
 ### 1. Feasibility
+
+First resolve the material policy questions for the intended implementation through
+YouTube's documented compliance process and appropriate legal review. Do not build
+API-based category/suitability inference or related-link blocking on an assumption
+that the official player makes those features permissible.
 
 Deliver a minimal TV screen, a supported playback experiment, a small extracted
 matching core, and an initial labelled content sample.
